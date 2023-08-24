@@ -1,7 +1,14 @@
 .product {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-height: 400px;
+    min-width: 100px;
+    background-color: rgb(180, 172, 172);
     z-index: 1;
 }
 
@@ -10,4 +17,21 @@
     width: 100%;
     object-fit: contain;
     margin-bottom: 15px;
+}
+
+.product > button {
+    background-color: #ca9d17;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #e9ba2f #b1902b #a88622;
+    color: #111;
+}
+
+.product__price {
+    margin-top: 5px;
+}
+
+.product__info {
+    height: 100px;
+    margin-bottom: 15px; 
 }

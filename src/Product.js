@@ -14,8 +14,8 @@ function Product() {
           <p>⭐</p>
         </div>
       </div>
-
-      <img src={require("./images/")} />
+      <img src={require("./images/product-one.webp")} />
+      <button>Add to Cart</button>
     </div>
   );
 }
