@@ -12,7 +12,7 @@ function header() {
       />
       <div className="header__search">
         <input className="header__searchInput" type="text" />
-        <img className="header__searchIcon" src={require("./images/search-btn.png")} />
+        <img className="header__searchIcon" src={require("./images/search-btn.png")} alt=""/>
       </div>
       <div className="header__nav">
         <div className="header__option">
@@ -32,7 +32,7 @@ function header() {
 
       </div>
       <div className="header__optionBasket">
-        <img className="header__basket" src={require("./images/basket.png")} />
+        <img className="header__basket" src={require("./images/basket.png")} alt=""/>
         0
       </div>
     </div>
