@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Header from "./header";
 import Home from "./Home";
+import Checkout from "./Checkout";
 import {
   BrowserRouter as Router,
   Routes,
@@ -15,12 +16,11 @@ function App() {
     <Router>
       <div className="App">
       <Routes>
-        <Route path="/checkout" element={<><Header/> <h1>What's up I'm Faheez</h1></>}/>
-      <Route path="/" element={<><Header/><Home/></>}/>
+        <Route path="/checkout" element={<><Header/> <Checkout/></>}/>
+        <Route path="/" element={<><Header/><Home/></>}/>
       </Routes>
       </div>
     </Router>
   );
 }
-
 export default App;

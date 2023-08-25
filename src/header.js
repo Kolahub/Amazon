@@ -1,15 +1,17 @@
 import React from "react";
 import "./header.css";
-//import image from "../images/amazon-logo.png";
+import { Link } from "react-router-dom";
 
 function header() {
   return (
     <div className="header">
+      <Link to ="/">
       <img
         className="header__logo"
         src={require("./images/amazon-logo.png")}
         alt=""
       />
+      </Link>
       <div className="header__search">
         <input className="header__searchInput" type="text" />
         <img className="header__searchIcon" src={require("./images/search-btn.png")} alt=""/>
